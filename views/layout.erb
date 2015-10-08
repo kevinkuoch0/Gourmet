@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title><%= @title %></title>
+<link href="/css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+	<%
+		nav = ["Home", "Menu", "Staff", "Location", "About"] 
+		pages = ["/", "menu", "staff", "location", "about"] 
+	%>
+
+	<ul style="list-style-type: none; padding-left: 0">
+
+	<!-- start ruby -->	
+	<% nav.each_with_index do |nav_item, nav_index| %>
+		<li style="display:inline-block">
+			<a href="<%= pages[nav_index] %>">
+				<%= nav_item %>
+			</a>	
+		</li>
+	<% end %>
+	<!-- end ruby -->
+
+	</ul>
+
+	<!-- start ruby -->
+	<%= yield %>	
+	<!-- end ruby -->
+
+	<hr />
+
+
+	<footer class="footer">
+	 	<p class="footer-text">
+	 		&copy 2015 Bergandino, Kuoch, Bartley
+	 	</p>
+	</footer>
+</body>
+</html>
