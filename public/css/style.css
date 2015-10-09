@@ -4,6 +4,17 @@ html, body{
 	background-color: #faebd7;
 }
 
+.location-content {
+	border-color: black:2px:solid;
+	margin: 0,10,10,10;
+}
+
+
+
+
+
+
+
 .footer {
 	position: fixed;
 	bottom: 0;
