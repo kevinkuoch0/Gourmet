@@ -1,3 +1,5 @@
+/* Main HTML, Body, Wrapper */
+
 html, body{
 	width: 100%;
 	height: 100%;
@@ -6,27 +8,28 @@ html, body{
 	background-color: #faebd7;
 }
 
-<<<<<<< HEAD
-.location-content {
-	border-color: black:2px:solid;
-	margin: 0,10,10,10;
-}
-
-
-
-
-
-
-=======
-.wrapper {
+.home-wrapper {
 	width: 100%;
 	height: 100%;
 	padding: 0;
 	margin: 0;
 	background-color: #faebd7;
-
 }
->>>>>>> b6694e133c5897beacd918f6e30013c1d3ff8505
+
+
+/*  Navigation Bar */
+
+.nav-bar-text {
+	display: inline-block;
+}
+
+.navbar-across {
+	width: 100%;
+	background-color: red;
+}
+
+
+/*  Footer Bar */
 
 .footer {
 	position: fixed;
@@ -41,11 +44,70 @@ html, body{
 	margin: 0;
 }
 
-.nav-bar-text {
-	display: inline-block;
+
+/* Location Page */
+
+.location-content {
+	border-color: black:2px:solid;
+	margin: 0,10,10,10;
 }
 
-.navbar-across {
-	width: 100%;
-	background-color: red;
+.location-wrapper {
+
 }
+
+
+/* Staff Page */
+
+.staff-wrapper {
+
+}
+
+
+/* About Page */
+
+.about-wrapper {
+
+}
+
+
+/* Menu Page */
+
+.menu-wrapper {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-	@title = "Index"
+	@title = "Gardino's Gourmet Soup and Sandwiches"
 	erb :index
 	
 end
@@ -27,11 +27,5 @@ end
 get '/about' do
 	@title = "About"
 	erb :about
-	
-end
-
-post '/signin' do
-	@title = "You're Signed In!"
-	erb :signin
 	
 end
