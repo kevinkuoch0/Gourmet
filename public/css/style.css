@@ -33,14 +33,43 @@ html, body{
 /*  Footer Bar */
 
 .footer {
-	width: 100%;
+	clear: both;
+    position: relative;
+	height: 7em;
+	width: 70%;
 	margin: 0 auto;
-	/*height: 100px;*/
+	text-align: center;
+	background-color: #6CB343;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
-.footer-text {
-	text-align: center;
-	margin: 0;
+.footertop{
+	background-color: #E8E8E8;
+	height: 70px;
+}
+
+.icon{
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.footnav ul li{
+	list-style-type: none;
+	display: inline;
+	color: #E8E8E8;
+	padding-left: 10px;
+}
+
+.footnav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: "Trebuchet MS"
+}
+
+.footnav ul li a:hover{
+	color: #D3D3D3;
 }
 
 /* Home Page */
