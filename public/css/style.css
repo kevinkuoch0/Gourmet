@@ -132,9 +132,18 @@ html, body{
 .location-content {
 	border-color: black:2px:solid;
 	margin: 0,10,10,10;
+	height: 500px;
+	width: 500px;
 }
 
+.loc.image2{
+	height: 500px;
+	width: 500px;
+	margin: 0;
+	float: left;
+}
 .location-wrapper {
+
 
 }
 
@@ -159,6 +168,10 @@ html, body{
 
 }
 
+.sandwich1 {
+	height: 500px;
+	width: 500px;
+}
 
 
 
