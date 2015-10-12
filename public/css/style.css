@@ -53,6 +53,11 @@ html, body{
 	height: 50px;
 	padding-left: 10px;
 	padding-top: 10px;
+	margin: 0 20px;
+}
+
+.footnav ul {
+	padding: 0;
 }
 
 .footnav ul li{
