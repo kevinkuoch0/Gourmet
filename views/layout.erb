@@ -6,6 +6,7 @@
 	<title><%= @title %></title>
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href="/css/style.css" rel="stylesheet" />
+<link href="/css/pushy.css" rel="stylesheet" />
 <!-- Bootstrap core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -17,8 +18,10 @@
 		nav = ["Home", "Menu", "Staff", "Location", "About"] 
 		pages = ["/", "menu", "staff", "location", "about"] 
 	%>
-	<div class="navbar-across">
-		<ul style="list-style-type: none; padding-left: 0">
+
+	<!-- Pushy Menu -->
+	<nav class="pushy pushy-left">
+	    <ul style="list-style-type: none; padding-left: 0">
 
 		<!-- start ruby -->	
 		<% nav.each_with_index do |nav_item, nav_index| %>
@@ -31,6 +34,29 @@
 		<!-- end ruby -->
 
 		</ul>
+	</nav>
+
+	<!-- Site Overlay -->
+	<div class="site-overlay"></div>
+
+	<!-- Your Content -->
+	<div id="container">
+	    <!-- Menu Button -->
+	    <div class="menu-btn">&#9776;</div>
+<!-- 	    <div id="nav-icon1" class="menu-btn">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div> -->
+	</div>
+
+
+
+
+
+
+	<div class="navbar-across">
+		
 	</div>
 	<!-- start ruby -->
 	<%= yield %>	
@@ -68,7 +94,7 @@
 	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<script src="/js/ie10-viewport-bug-workaround.js"></script>
 	<script src="/js/jssor.slider.mini.js"></script>
-
+	<script src="/js/pushy.min.js"></script>
 </body>
 </html>
 
