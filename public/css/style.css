@@ -36,7 +36,7 @@ html, body{
 	clear: both;
     position: relative;
 	height: 7em;
-	width: 70%;
+	width: 85%;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #6CB343;
@@ -139,9 +139,8 @@ html, body{
 	padding: 1em;
 	text-align: center;
 	vertical-align: middle;
-	display: table-cell;
-	margin: 0 auto;
-	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 15px;
 	box-shadow: 10px 5px 5px black;
 	background-color: #C7C7C7;
