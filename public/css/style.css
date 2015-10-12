@@ -8,7 +8,15 @@ html, body{
 	background-color: #faebd7;
 }
 
+.index-title{ 
+	font-style: Verdana;
+	font-size: 50px;
+	text-align: center;
+	margin:0;
+	font-color:#4b3832;
+	background:#fff4e6; 
 
+}
 .home-wrapper {
 	width: 100%;
 /*	height: 100%;*/
@@ -153,10 +161,35 @@ html, body{
 
 /* Home Page */
 
-.home-wrapper {
-
+.index-content-wrapper {
+	background-color: #fff4e6;
 }
 
+.staff_img{
+	display: inline-block;
+	padding: 50px;
+}
+
+.sandwich_img{
+	display: inline-block;
+	padding: 50px;
+}
+.soup_img {
+	display: inline-block;	
+	padding: 50px;
+}
+.location_img {
+	display: inline-block;
+	padding: 50px;
+}
+
+/*.location-img {
+	width: 100px;
+	height: 100px;
+	display: inline-block;*/
+}
+
+.
 /* Home Page Image Carousel */
 
 .jssora21l, .jssora21r {
