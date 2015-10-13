@@ -149,6 +149,7 @@ html, body{
 	padding-left: 10px;
 }
 
+
 .footnav ul li a{
 	text-decoration: none;
 	color: white;
@@ -331,22 +332,35 @@ html, body{
 }
 .chef_1 {
 	background-color:#fff4e6;
-	width: 75%;
+	/*width: 75%;*/
 	opacity: 0.6;
-	z-index: 1;
-	position: relative;
+	/*z-index: 1;*/
+	/*position: relative;*/
 	overflow: hidden;
 
 }
  .chef-p1 {
  	font-size: 26px;
- 	z-index: -1;
+ 	position: relative;
+	bottom: 300px;
+ 	z-index: 9999;
+ 	width: 75%;
  	text-align: center;
  	/*height:100px;
  	width: 900px;*/
  	margin: 0;
  	background-color: #fff4e6;
  	
+ }
+
+ .content_wrapper {
+ 	width: 75%;
+ 	margin: 0 auto;
+
+ }
+
+ .staff_text {
+ 	font-weight: bold;
  }
 /*.overlay {
 	z-index: 1;
@@ -497,3 +511,21 @@ html, body{
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
 }
+
+
+.message_form {
+	width: 500px;
+	height: 350px;
+}
+
+.name_form {
+	margin-left: 10px;
+}
+
+.email_form {
+	margin-left: 47px;
+}
+
+
+
+
