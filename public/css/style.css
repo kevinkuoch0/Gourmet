@@ -162,34 +162,61 @@ html, body{
 /* Home Page */
 
 .index-content-wrapper {
-	background-color: #fff4e6;
-	border: 2px solid #854442;
+	background-color: #3c2f2f;
+	border: 2px solid orange;
+	width: 100%;
+	float: left;
+
+
 }
 
-.staff_img{
+ .h3_font{
+	color: #be9b7b;
+}
+
+.staff_img img{
 	display: inline-block;
 	padding: 30px;
 	border: 5px solid #854442;
 	border-radius: 25px;
+	margin:0 auto; 
+	width: 400px;
+	height: 400px;
+	/*float: left;*/
 }
-
-.sandwich_img{
+ 
+ .sandwich_img img{
 	display: inline-block;
 	padding: 30px;
 	border: 5px solid #854442;
 	border-radius: 25px;
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	/*float: right;*/
+
+	
 }
-.soup_img {
+.soup_img img {
 	display: inline-block;	
 	padding: 30px;
 	border: 5px solid #854442;
 	border-radius: 25px;
+	margin: 0 auto;
+	height: 400px;
+	width: 400px;
+	/*float: left;*/
+
 }
-.location_img {
+.location_img img {
 	display: inline-block;
 	padding: 30px;
 	border: 5px solid#854442;
+	margin: 0 auto;
 	border-radius: 25px;
+	height: 400px;
+	width: 400px;
+	/*float: right;*/
 }
 .location-wrapper {
 	background-color: #fff4e6;
@@ -358,6 +385,7 @@ html, body{
 
 .about-wrapper {
  background-color: #fff4e6;
+ margin-right: 0 auto;
 }
 .about-img1 {
 	display: inline-block;
@@ -396,7 +424,8 @@ html, body{
 	float: left;
 	padding: 10%;
 	width: 50%;
-	padding-top: 20px;
+	padding-bottom: 20px;
+
 }
 /* Menu Page */
 
