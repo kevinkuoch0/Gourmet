@@ -44,7 +44,7 @@ post '/mail_page' do
  # :subject=> params[:username],
  # :from_name=> "Your name",
  :from_name=> params[:username],
- :text=>params[:message_form],
+ :text=>params[:message],
  :to=>[{:email=> "jbergandino@gmail.com", :name=> "JohnNameTest"}],
  # :html=>"<html><h1>Hi <strong>message</strong>, how are you?</h1></html>",
  # :from_email=>"jc@jasoncurran.com"

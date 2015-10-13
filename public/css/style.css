@@ -5,7 +5,7 @@ html, body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	background-color: #faebd7;
+	background-color: #E8E8E8;
 }
 
 .index-title{ 
@@ -34,11 +34,20 @@ html, body{
 
 .navbar-across {
 	width: 100%;
+	background-color: #E8E8E8;
 }
 
 .menu-btn {
 	font-size: 34px;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
+	padding-left: 10px;
+	background-color: #E8E8E8;
+
+}
+
+.header-h1 {
+	margin: 0;
+	padding: 10px;
 }
 
 /* Animated Hamburger Menu Icon 
@@ -118,7 +127,7 @@ html, body{
 	clear: both;
     position: relative;
 	height: 7em;
-	width: 85%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #6CB343;
@@ -165,17 +174,29 @@ html, body{
 .index-content-wrapper {
 	background-color: #3c2f2f;
 	border: 2px solid orange;
-	width: 100%;
+	width: 1000px;
 	float: left;
-
-
+	display: block;
 }
+
+.index-content-wrapper img {
+	width: 400px;
+}
+
+
+.lorem {
+	color: red;
+	width: 400px;
+	float: right;
+	/*float: left;*/
+}
+
 
  .h3_font{
 	color: #be9b7b;
 }
 
-.staff_img img{
+/*.staff_img img{
 	display: inline-block;
 	padding: 30px;
 	border: 5px solid #854442;
@@ -183,42 +204,8 @@ html, body{
 	margin:0 auto; 
 	width: 400px;
 	height: 400px;
-	/*float: left;*/
-}
- 
- .sandwich_img img{
-	display: inline-block;
-	padding: 30px;
-	border: 5px solid #854442;
-	border-radius: 25px;
-	margin: 0 auto;
-	width: 400px;
-	height: 400px;
-	/*float: right;*/
+}*/
 
-	
-}
-.soup_img img {
-	display: inline-block;	
-	padding: 30px;
-	border: 5px solid #854442;
-	border-radius: 25px;
-	margin: 0 auto;
-	height: 400px;
-	width: 400px;
-	/*float: left;*/
-
-}
-.location_img img {
-	display: inline-block;
-	padding: 30px;
-	border: 5px solid#854442;
-	margin: 0 auto;
-	border-radius: 25px;
-	height: 400px;
-	width: 400px;
-	/*float: right;*/
-}
 .location-wrapper {
 	background-color: #fff4e6;
 }
