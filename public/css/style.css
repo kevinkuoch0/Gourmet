@@ -163,24 +163,33 @@ html, body{
 
 .index-content-wrapper {
 	background-color: #fff4e6;
+	border: 2px solid #854442;
 }
 
 .staff_img{
 	display: inline-block;
-	padding: 50px;
+	padding: 30px;
+	border: 5px solid #854442;
+	border-radius: 25px;
 }
 
 .sandwich_img{
 	display: inline-block;
-	padding: 50px;
+	padding: 30px;
+	border: 5px solid #854442;
+	border-radius: 25px;
 }
 .soup_img {
 	display: inline-block;	
-	padding: 50px;
+	padding: 30px;
+	border: 5px solid #854442;
+	border-radius: 25px;
 }
 .location_img {
 	display: inline-block;
-	padding: 50px;
+	padding: 30px;
+	border: 5px solid#854442;
+	border-radius: 25px;
 }
 .location-wrapper {
 	background-color: #fff4e6;
@@ -314,8 +323,36 @@ html, body{
 /* Staff Page */
 
 .staff-wrapper {
+	background-color: #fff4e6;
+	overflow: hidden;
 
 }
+.staff_title {
+	text-align: center;
+}
+.chef_1 {
+	background-color:#fff4e6;
+	width: 75%;
+	opacity: 0.6;
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+
+}
+ .chef-p1 {
+ 	font-size: 26px;
+ 	z-index: -1;
+ 	text-align: center;
+ 	/*height:100px;
+ 	width: 900px;*/
+ 	margin: 0;
+ 	background-color: #fff4e6;
+ 	
+ }
+/*.overlay {
+	z-index: 1;
+	position: relative;
+}*/
 
 
 /* About Page */
@@ -325,18 +362,31 @@ html, body{
 }
 .about-img1 {
 	display: inline-block;
+	width: 50%;
 	
+}
+ 
+.about-img1 img{
+	width: 100%;
+
 }
 .about-img2 {
 	display: inline-block;
+	width: 50%;
 
+}
+
+.about-img2 img{
+	width: 100%;
 }
 .about_p1{
 	display: inline-block;
 	font-size: 20px;
 	font-family: Georgia;
 	font-color:#4b3832;
-	float: left;
+	float: right;
+	padding: 10%;
+	width: 50%;
 }
 
 .about_p2{
@@ -345,6 +395,9 @@ html, body{
 	font-family: Georgia;
 	font-color:#4b3832;
 	float: left;
+	padding: 10%;
+	width: 50%;
+	padding-top: 20px;
 }
 /* Menu Page */
 
@@ -354,47 +407,70 @@ html, body{
 .sw1 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 .sw2{
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 .sw3 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 .sw4 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 .sp1 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }	
 .sp2 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 .sp3 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 .sp4 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 .sd1 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 .sd2 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
+
 
 }
 .sd3 {
 	display: inline-block;
 	margin: 20px;
+	border-radius: 25px;
+	border: 5px solid #854442;
 }
 
 
@@ -404,6 +480,7 @@ html, body{
 	margin-right: auto;
 	display: block;
 	padding-bottom: 18px;
+
 }
 
 
