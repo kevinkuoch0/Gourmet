@@ -321,10 +321,31 @@ html, body{
 /* About Page */
 
 .about-wrapper {
+ background-color: #fff4e6;
+}
+.about-img1 {
+	display: inline-block;
+	
+}
+.about-img2 {
+	display: inline-block;
 
 }
+.about_p1{
+	display: inline-block;
+	font-size: 20px;
+	font-family: Georgia;
+	font-color:#4b3832;
+	float: left;
+}
 
-
+.about_p2{
+	display: inline-block;
+	font-size: 20px;
+	font-family: Georgia;
+	font-color:#4b3832;
+	float: left;
+}
 /* Menu Page */
 
 .menu-wrapper {
