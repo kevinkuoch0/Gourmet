@@ -41,7 +41,7 @@ post '/mail_page' do
 	
 	
 	message = {
- # :subject=> params[:username],
+ :subject=> params[:username],
  # :from_name=> "Your name",
  :from_name=> params[:username],
  :text=>params[:message],

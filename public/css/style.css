@@ -174,26 +174,40 @@ html, body{
 .index-content-wrapper {
 	background-color: #3c2f2f;
 	border: 2px solid orange;
-	width: 1000px;
+	width: 100%;
 	float: left;
 	display: block;
 }
 
 .index-content-wrapper img {
 	width: 400px;
+/*	height: 320px;
+	padding-left: 220px;*/
+	margin-left: 200px;
+
 }
 
 
 .lorem {
 	color: red;
-	width: 400px;
+	width: 700px;
 	float: right;
+	padding: 100px 220px 0 0;
+	/*float: left;*/
+}
+
+.lorem2 {
+	color: red;
+	width: 700px;
+	float: right;
+	padding: 65px 220px 0 0;
 	/*float: left;*/
 }
 
 
  .h3_font{
 	color: #be9b7b;
+	margin-left: 200px;
 }
 
 /*.staff_img img{
